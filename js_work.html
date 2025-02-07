@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    window.alert("Welcome to this Web page")
+</script>
+
+<h2>java script eg.</h2>
+
+<p>Interactable bulb in html using java script</p>
+
+<button onclick="myFunction()">Turn on the light</button>
+
+<script>
+function myFunction() {
+  document.getElementById('myImg').src='C:/Users/ADMIN/Pictures/Screenshots/bulb off.png'
+  alert("The light is on !");
+}
+</script>
+
+<img id="myImg" src='C:/Users/ADMIN/Pictures/Screenshots/bulb on.png' style="width:100px">
+
+<button onclick="myFunction2()">Turn off the light</button>
+
+<script>
+function myFunction2() {
+  document.getElementById('myImg').src='C:/Users/ADMIN/Pictures/Screenshots/bulb on.png'
+  alert("The light is off !");
+}
+</script>
+
+</body>
+</html>

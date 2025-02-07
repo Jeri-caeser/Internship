@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .image {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+
+            .image {
+                width: 80%; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="C:\Users\ADMIN\Downloads\violin.jpg" alt="Image 1" class="image">
+        <img src="C:\Users\ADMIN\Downloads\guitar.jpg" alt="Image 2" class="image">
+    </div>
+
+</body>
+</html>
